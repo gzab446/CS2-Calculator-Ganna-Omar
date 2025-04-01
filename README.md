@@ -20,7 +20,7 @@ This is a simple yet powerful command-line calculator program written in C++. It
 
 1. **Clone the repository** (or download the source code):
     ```bash
-    git clone https://github.com/yourusername/calculator.git
+    git clone https://github.com/gzab446/CS2-Calculator-Ganna-Omar.git
     cd calculator
     ```
 
