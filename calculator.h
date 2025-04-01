@@ -1,5 +1,9 @@
+
+
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
+
+#include <string>
 
 int add(int a, int b);
 int subtract(int a, int b);
@@ -19,5 +23,8 @@ int lcm(int a, int b);
 int generateRandom(int min, int max);
 
 void initRandom();
+
+//Function to evaluate mathematical expression
+double evaluateExpression(const std::string& expression);
 
 #endif
