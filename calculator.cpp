@@ -65,6 +65,6 @@ int generateRandom(int min, int max) {
 
 // Initialize random seed (Call this once in main() before using generateRandom)
 void initRandom() {
-    srand(time(0));
+    srand(time(0));  // Seed the random number generator
 }
 
