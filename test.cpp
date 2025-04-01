@@ -1,6 +1,6 @@
 #include <iostream>
 #include "calculator.h" // Include the header file
-
+#include "calculator.cpp"
 using namespace std;
 
 int main() {
