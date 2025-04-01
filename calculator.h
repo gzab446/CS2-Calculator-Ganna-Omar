@@ -4,6 +4,7 @@
 #define CALCULATOR_H
 
 #include <string>
+#include <queue>
 
 int add(int a, int b);
 int subtract(int a, int b);
@@ -24,7 +25,12 @@ int generateRandom(int min, int max);
 
 void initRandom();
 
-//Function to evaluate mathematical expression
+//Functions to evaluate mathematical expression
+int precedence(char op);
+double applyOperation(double a, double b, char op);
+std::queue<std::string> infixToPostfix(const std::string& expression);
+double evaluatePostfix(std::queue<std::string> postfix);
 double evaluateExpression(const std::string& expression);
+
 
 #endif
