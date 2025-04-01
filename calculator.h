@@ -18,5 +18,6 @@ int lcm(int a, int b);
 // Function to generate a random number within a given range
 int generateRandom(int min, int max);
 
+void initRandom();
 
 #endif
