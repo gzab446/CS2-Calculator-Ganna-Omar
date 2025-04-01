@@ -5,9 +5,8 @@ using namespace std;
 
 int main() {
     // Initialize random number generator
-    void initRandom() {
-        srand(time(0));  // Seed the random number generator
-    }
+    initRandom();
+    
 
     // Testing addition
     cout << "Testing Addition: 5 + 3 = " << add(5, 3) << endl;
