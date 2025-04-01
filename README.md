@@ -48,18 +48,12 @@ You can calculate the factorial of a number using the factorial() function. Note
 
 Example:
 
-cpp
-Copy
-Edit
 long long result = factorial(5);  // Computes 5! = 120
 3. GCD and LCM Calculations
 You can compute the GCD and LCM of two numbers.
 
 Example:
 
-cpp
-Copy
-Edit
 int result_gcd = gcd(18, 24);  // Computes GCD of 18 and 24
 int result_lcm = lcm(6, 8);    // Computes LCM of 6 and 8
 4. Random Number Generation
@@ -67,9 +61,6 @@ You can generate random numbers within a specified range using generateRandom(mi
 
 Example:
 
-cpp
-Copy
-Edit
 int random_number = generateRandom(1, 100);  // Generates a random number between 1 and 100
 5. Expression Evaluation
 The calculator can evaluate mathematical expressions that include addition, subtraction, multiplication, division, and parentheses. The Shunting Yard algorithm is used to convert infix expressions into postfix notation for easy evaluation.
@@ -85,9 +76,6 @@ Multiplication * and division / have higher precedence than addition + and subtr
 Example:
 To evaluate an expression like 3 + 4 * (2 - 1), you can use the evaluateExpression() function.
 
-cpp
-Copy
-Edit
 string expr = "3 + 4 * (2 - 1)";
 double result = evaluateExpression(expr);  // Evaluates the expression
 Supported Expressions:
@@ -100,9 +88,6 @@ Error Handling: The calculator will print an error message and return a value of
 6. Random Number Generation:
 You can also generate a random number between two specified numbers.
 
-cpp
-Copy
-Edit
 int randNum = generateRandom(1, 100);  // Generates a random number between 1 and 100
 Examples of Expressions:
 Here are some examples of how you can test the expression evaluation:
